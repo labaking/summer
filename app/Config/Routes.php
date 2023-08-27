@@ -31,7 +31,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('PostController', 'PostController::index');//進到PostController後自動連接到index
-
+$routes->get('LoginController', 'LoginController::login_index');//進到LoginController後自動連接到login
 /*
  * --------------------------------------------------------------------
  * Additional Routing

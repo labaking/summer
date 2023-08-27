@@ -1,0 +1,15 @@
+
+h1{
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    color:chartreuse;
+}
+
+p{
+    color: blueviolet;
+}
